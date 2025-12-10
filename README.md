@@ -1,7 +1,17 @@
 # ✅ Python Script QA Utilities
 
-This repository contains small but highly useful **Python automation utilities for QA workflows**.  
-These scripts help with **test data preparation, log validation, and cleanup automation**, commonly used in manual and automation testing environments.
+This project is a collection of **Python-based QA automation utility scripts** built to support **manual and automation testing workflows**.  
+It demonstrates scripting skills for QA roles, including **test data handling, log validation, and automation cleanup**.
+
+---
+
+## 🚀 Features
+- CSV to JSON test data conversion
+- Automated log reading & error detection
+- Test artifact & folder cleanup automation
+- Lightweight Python-based utilities
+- Practical QA workflow support
+- Clean and organized project structure
 
 ---
 
@@ -13,98 +23,65 @@ QA-Automation-Utilities/
 ├── log_reader.py # Read logs & highlight failures
 ├── folder_cleanup.py # Clean temp/log files after test execution
 └── README.md
-
-yaml
-Copy code
 ```
 ---
 
-## 🛠️ Scripts Overview
+## ▶️ How to Run Scripts
 
-### ✅ 1. csv_to_json.py
-Converts test data from CSV file into JSON format.
+### 1️⃣ Make sure Python is installed  
 
-📌 **Used for:**
-- Data-driven automation testing
-- Converting Excel/CSV to JSON
-- API testing payload prep
+python --version
 
-▶️ **Run:**
-```bash
+2️⃣ Run CSV to JSON Converter
+
 python csv_to_json.py
-📄 Example Output:
 
-pgsql
-Copy code
-✅ CSV successfully converted to JSON
-✅ 2. log_reader.py
-Reads application/system logs and displays only error or failure lines.
+3️⃣ Run Log Reader
 
-📌 Used for:
-
-Post-test log validation
-
-Debugging failed test executions
-
-Monitoring system errors
-
-▶️ Run:
-
-bash
-Copy code
 python log_reader.py
-📄 Example Output:
 
-vbnet
-Copy code
-🔍 Error Lines Found:
+4️⃣ Run Folder Cleanup Script
 
-ERROR: Login failed for user admin
-FAIL: Payment gateway timeout
-✅ 3. folder_cleanup.py
-Deletes temporary .tmp and .log files after test execution.
-
-📌 Used for:
-
-Automation result cleanup
-
-Test workspace hygiene
-
-Preventing log accumulation
-
-▶️ Run:
-
-bash
-Copy code
 python folder_cleanup.py
-📄 Example Output:
 
-Copy code
-✅ Cleanup complete. Deleted 5 files.
-🧪 Skills Demonstrated
-Python automation
+---
 
-QA utility scripting
+## 🧪 Sample Utilities Included
+CSV to JSON Converter → Prepares test data for data-driven testing
 
-Log analysis
+Log Reader → Extracts only error & failure logs
 
-File handling
+Folder Cleanup Script → Removes unnecessary test artifacts
 
-Data-driven testing support
+---
 
-Automation hygiene
+## 📌 Technologies Used
+Python
 
-🎯 Purpose of This Project
-This project shows my ability to:
+File Handling
 
-Write practical QA automation utilities
+Log Analysis
 
-Support manual & automated testing workflows
+Data-Driven Automation
 
-Handle test data, logs, and execution artifacts
+QA Utility Scripting
 
-Think like a QA Automation Engineer
+---
 
-👤 Author
-Harsh Bansal
+## 📢 Purpose
+This project demonstrates:
+
+Ability to write QA-focused Python utilities
+
+Support for manual & automation testing workflows
+
+Handling of test data, logs, and execution artifacts
+
+Practical automation hygiene & scripting logic
+
+Perfect for QA Engineer, Automation Engineer, or SDET interviews.
+
+---
+## 👤 Author  
+**Harsh Bansal**  
 GitHub: https://github.com/harshbansal95623
