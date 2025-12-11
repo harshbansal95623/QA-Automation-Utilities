@@ -68,20 +68,7 @@ QA Utility Scripting
 
 ---
 
-## 📢 Purpose
-This project demonstrates:
 
-Ability to write QA-focused Python utilities
-
-Support for manual & automation testing workflows
-
-Handling of test data, logs, and execution artifacts
-
-Practical automation hygiene & scripting logic
-
-Perfect for QA Engineer, Automation Engineer, or SDET interviews.
-
----
 ## 👤 Author  
 **Harsh Bansal**  
 GitHub: https://github.com/harshbansal95623
